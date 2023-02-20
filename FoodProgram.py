@@ -34,5 +34,4 @@ if customer1.get_member_status() == 'True':
 
 else:
     print(f'Total Cost: {order_total:.2f}')
-
 print('hello')

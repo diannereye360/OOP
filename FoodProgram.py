@@ -12,8 +12,9 @@ dict = {'trans1':['2/15/2023','The Lone Patty',17,569],
 
 order_total = 0
 
-#customer1 = fc.Customer(570,'Danni Sellyar', '97 Mitchell Way Hewitt Texas 76712','dseyllyarft@gmpg.org', '254-555-9362', 'False')
-customer1 = fc.Customer(569,'Aubree Himsworth','1172 Moulton Hill Waco Texas 76710', 'ahimsworthfs@list-manage.com','254-555-2273','True')
+customer1 = fc.Customer(570,'Danni Sellyar', '97 Mitchell Way Hewitt Texas 76712','dseyllyarft@gmpg.org', '254-555-9362', 'False')
+#customer1 = fc.Customer(569,'Aubree Himsworth','1172 Moulton Hill Waco Texas 76710', 'ahimsworthfs@list-manage.com','254-555-2273','True')
+
 print(f'Customer Name: {customer1.get_name()}')
 print(f'Phone:{customer1.get_phone()}')
 
